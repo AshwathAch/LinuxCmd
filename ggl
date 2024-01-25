@@ -1,0 +1,6 @@
+cat --> Read file
+ls -l(Permission)
+ls -a(Hidden Files)
+jq path | less --> to display the entries in an improved format
+jq -c "[.field1,.field2]" /x.json --> Req part of Json
+jq "select(.field==X)" /x.json --> Specific event
