@@ -1,6 +1,8 @@
-cat --> Read file
+pwd --> Current path
+cat --> Read file/Print
 ls -l(Permission)
 ls -a(Hidden Files)
+grep xxxx filename --> filter xxxx from file 
 jq path | less --> to display the entries in an improved format
 jq -c "[.field1,.field2]" /x.json --> Req part of Json
 jq "select(.field==X)" /x.json --> Specific event
