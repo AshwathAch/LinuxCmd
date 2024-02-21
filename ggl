@@ -3,6 +3,8 @@ cat --> Read file/Print
 ls -l(Permission)
 ls -a(Hidden Files)
 grep xxxx filename --> filter xxxx from file 
+sudo dpkg --add-architecture amd64/arm --> Add architecture for installing app
+dpkg --print-foreign-architecture >See architecture
 jq path | less --> to display the entries in an improved format
 jq -c "[.field1,.field2]" /x.json --> Req part of Json
 jq "select(.field==X)" /x.json --> Specific event
