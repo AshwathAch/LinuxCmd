@@ -1,0 +1,8 @@
+NMAP(https://www.freecodecamp.org/news/what-is-nmap-and-how-to-use-it-a-tutorial-for-the-greatest-scanning-tool-of-all-time/)
+nmap www.xxx.xxx > scan for open ports and services
+nmap --top-ports (x) www.xxx.xxx > scan for first x open ports and services
+nmap -sV www.xxx.xxx > Scan with service versions
+nmap -A www.xxx.xxx > Scan with Public Key
+nmap -p (x) www.xxx.xxx > Scan for particular x port
+nmap -iL /input_ips.txt > Large number of IP in that txt file
+nmap -oN/oX output.txt/.xml scanme.nmap.org > export output as txt or xml
