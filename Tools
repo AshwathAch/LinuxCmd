@@ -9,3 +9,5 @@ nmap -oN/oX output.txt/.xml scanme.nmap.org > export output as txt or xml
 
 GOBUSTER
 gobuster version > Version
+gobuster dir -u https://xxxx -w [WordListPATH]/xxx.txt -t x(int) --delay x(int)s -x (.php,.txt)> Find linked pages and portals 
+-u(WebsiteAddress), -w(Wordlist), -t(No. of words), -x(Particular Extension)
