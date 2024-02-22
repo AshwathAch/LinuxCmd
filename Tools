@@ -6,3 +6,6 @@ nmap -A www.xxx.xxx > Scan with Public Key
 nmap -p (x) www.xxx.xxx > Scan for particular x port
 nmap -iL /input_ips.txt > Large number of IP in that txt file
 nmap -oN/oX output.txt/.xml scanme.nmap.org > export output as txt or xml
+
+GOBUSTER
+gobuster version > Version
