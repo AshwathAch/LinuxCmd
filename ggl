@@ -1,8 +1,9 @@
 pwd --> Current path
 apt list [package], package --version --> Version of package
 cat --> Read file/Print
-ls -l(Permission)
-ls -a(Hidden Files)
+ls -l --> Show Permission
+ls -a --> Hidden Files
+-o xxx.txt --> save Output in xxx.txt
 chmod ugo[+/-]rwx [fileName] --> Change permission(g - group, o - others, u - user, a - all)
 grep xxxx filename --> filter xxxx from file 
 sudo dpkg --add-architecture [amd64/arm] --> Add architecture for installing app
