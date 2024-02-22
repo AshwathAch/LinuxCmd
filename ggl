@@ -5,6 +5,7 @@ cat --> Read file/Print
 ls -l --> Show Permission
 ls -a --> Hidden Files
 hostname -I --> Internal IP
+curl ifconfig.me --> External IP
 arp -a --> Network devices
 -o xxx.txt --> save Output in xxx.txt
 chmod ugo[+/-]rwx [fileName] --> Change permission(g - group, o - others, u - user, a - all)
