@@ -4,6 +4,8 @@ apt list [package], package --version --> Version of package
 cat --> Read file/Print
 ls -l --> Show Permission
 ls -a --> Hidden Files
+hostname -I --> Internal IP
+arp -a --> Network devices
 -o xxx.txt --> save Output in xxx.txt
 chmod ugo[+/-]rwx [fileName] --> Change permission(g - group, o - others, u - user, a - all)
 grep xxxx filename --> filter xxxx from file 
