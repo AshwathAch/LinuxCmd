@@ -3,8 +3,9 @@ apt list [package], package --version --> Version of package
 cat --> Read file/Print
 ls -l(Permission)
 ls -a(Hidden Files)
+chmod ugo[+/-]rwx [fileName] --> Change permission(g - group, o - others, u - user, a - all)
 grep xxxx filename --> filter xxxx from file 
-sudo dpkg --add-architecture amd64/arm --> Add architecture for installing app
+sudo dpkg --add-architecture [amd64/arm] --> Add architecture for installing app
 dpkg --print-foreign-architecture >See architecture
 jq path | less --> to display the entries in an improved format
 jq -c "[.field1,.field2]" /x.json --> Req part of Json
