@@ -1,4 +1,5 @@
 pwd --> Current path
+apt list [package], package --version --> Version of package
 cat --> Read file/Print
 ls -l(Permission)
 ls -a(Hidden Files)
