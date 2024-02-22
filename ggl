@@ -4,9 +4,12 @@ apt list [package], package --version --> Version of package
 cat --> Read file/Print
 ls -l --> Show Permission
 ls -a --> Hidden Files
+sed -i 's/ppp/xxx/' data.txt --> change ppp to xxx in the file
 hostname -I --> Internal IP
 curl ifconfig.me --> External IP
 arp -a --> Network devices
+sha256sum xxx " > cc "--> Hash for xxx and store in cc
+sha256sum --check cc --> check for file with same hash in same dirdectory
 -o xxx.txt --> save Output in xxx.txt
 chmod ugo[+/-]rwx [fileName] --> Change permission(g - group, o - others, u - user, a - all)
 grep xxxx filename --> filter xxxx from file 
