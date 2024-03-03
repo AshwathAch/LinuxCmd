@@ -6,7 +6,9 @@ nmap -A www.xxx.xxx > Scan with Public Key
 nmap -p (x) www.xxx.xxx > Scan for particular x port
 nmap -iL /input_ips.txt > Large number of IP in that txt file
 nmap -oN/oX output.txt/.xml scanme.nmap.org > export output as txt or xml
-
+nmap -sn 192.xx.xx.cc/24 --> scan LAN devices, /16(192.xx.cc.cc)
+nmap -A 192.xx.xx.xx  --> Aggressive scan 
+nmap -p 80,443 192.xx.xx.xx --> specific port 
 GOBUSTER(https://hackertargert.com/gobuster-tutorial)
 gobuster version > Version
 gobuster dir -u https://xxxx.xxx -w [WordListPATH]/xxx.txt -t x(int) --delay x(int)s -x (.php,.txt)> Find linked pages and portals 
