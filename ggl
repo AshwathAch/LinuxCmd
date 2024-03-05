@@ -7,6 +7,8 @@ ls -a --> Hidden Files
 sed -i 's/ppp/xxx/' data.txt --> change ppp to xxx in the file
 hostname -I --> Internal IP
 curl ifconfig.me --> External IP
+hostnamectl --> Systeminfo
+cat /etc/os-release --> OS info
 arp -a --> Network devices
 sha256sum xxx " > cc "--> Hash for xxx and store in cc
 sha256sum --check cc --> check for file with same hash in same dirdectory
