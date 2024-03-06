@@ -21,3 +21,4 @@ dpkg --print-foreign-architecture >See architecture
 jq path | less --> to display the entries in an improved format
 jq -c "[.field1,.field2]" /x.json --> Req part of Json
 jq "select(.field==X)" /x.json --> Specific event
+/etc/proxychains4.conf --> Proxy configuration file
