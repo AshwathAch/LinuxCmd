@@ -7,6 +7,7 @@ ls -a --> Hidden Files
 sed -i 's/ppp/xxx/' data.txt --> change ppp to xxx in the file
 hostname -I --> Internal IP
 curl ifconfig.me --> External IP
+curl https://ipinfo.io/ip --> Show external IP
 hostnamectl --> Systeminfo
 cat /etc/os-release --> OS info
 arp -a --> Network devices
