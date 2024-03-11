@@ -1,4 +1,4 @@
-NMAP(https://www.freecodecamp.org/news/what-is-nmap-and-how-to-use-it-a-tutorial-for-the-greatest-scanning-tool-of-all-time/)
+<NMAP(https://www.freecodecamp.org/news/what-is-nmap-and-how-to-use-it-a-tutorial-for-the-greatest-scanning-tool-of-all-time/)>
 nmap www.xxx.xxx > scan for open ports and services
 nmap --top-ports (x) www.xxx.xxx > scan for first x open ports and services
 nmap -sV www.xxx.xxx > Scan with service versions
@@ -9,8 +9,9 @@ nmap -oN/oX output.txt/.xml scanme.nmap.org > export output as txt or xml
 nmap -sn 192.xx.xx.cc/24 --> scan LAN devices, /16(192.xx.cc.cc)
 nmap -A 192.xx.xx.xx  --> Aggressive scan 
 nmap -p 80,443 192.xx.xx.xx --> specific port 
-GOBUSTER(https://hackertargert.com/gobuster-tutorial)
+<GOBUSTER(https://hackertargert.com/gobuster-tutorial)>
 gobuster version > Version
 gobuster dir -u https://xxxx.xxx -w [WordListPATH]/xxx.txt -t x(int) --delay x(int)s -x (.php,.txt)> Find linked pages and portals 
 -u(WebsiteAddress), -w(Wordlist), -t(No. of words), -x(Particular Extension)
 gobuster dir -d https://xxxx.xxx -w [WordListPATH]/xxx.txt
+<AutoTor https://github.com/FDX100/Auto_Tor_IP_changer>  
