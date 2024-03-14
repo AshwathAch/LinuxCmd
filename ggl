@@ -4,6 +4,7 @@ apt list [package], package --version --> Version of package
 cat --> Read file/Print
 ls -l --> Show Permission
 ls -a --> Hidden Files
+lsusb --> USB Connections
 sed -i 's/ppp/xxx/' data.txt --> change ppp to xxx in the file
 hostname -I --> Internal IP
 curl ifconfig.me --> External IP
@@ -12,6 +13,8 @@ chmod +x aaaa.sh, sudo ./aaaa.sh --> Install .sh file or App
 hostnamectl --> Systeminfo
 cat /etc/os-release --> OS info
 arp -a --> Network devices
+iwconfig --> Wireless adapters 
+iwlist scan / nmcli vice wifi list --> Available wifi scan
 /etc/proxychains4.conf --> Proxy configuration file
 proxychain firefox www.xxx.xx --> open www.xx with proxy server
 sha256sum xxx " > cc "--> Hash for xxx and store in cc
