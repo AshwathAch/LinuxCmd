@@ -5,6 +5,7 @@ cat --> Read file/Print
 ls -l --> Show Permission
 ls -a --> Hidden Files
 lsusb --> USB Connections
+sudo apt -y install kali-root-login
 sed -i 's/ppp/xxx/' data.txt --> change ppp to xxx in the file
 hostname -I --> Internal IP
 curl ifconfig.me --> External IP
