@@ -1,1 +1,28 @@
+AutoTor
+git clone https://github.com/FDX100/Auto_Tor_IP_changer.git
+cd Auto_Tor_IP_changer
+python3 install.py
+interminal type ( aut ) any where you want
+type time to change IP
+type how many time to change your ip
+*[0 to infinte IP change]
+go to your browser / pc change sock proxy to 127.0.0.1:9050
 
+NTP
+NTP portnumber 123 
+vi /etc/chrony.conf 
+after pool in config file 1add below lines 
+pool timeserver1.india.com iburst
+pool timeserver2.india.com iburst
+pool timeserver3.india.com iburst
+pool timeserver4.india.com iburst
+service chronyd restart
+
+cd /
+Is -IZ (capital Z)
+/etc/selinux/config
+SELINUX MODES:
+enforcing >> Fully blocked
+permissive > blocked but it will throw logs 
+disabled >> Fully disabled allow all.
+getenforce >>> To check whether Selinux in which state.
