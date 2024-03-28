@@ -29,3 +29,10 @@ jq path | less --> to display the entries in an improved format
 jq -c "[.field1,.field2]" /x.json --> Req part of Json
 jq "select(.field==X)" /x.json --> Specific event
 https://www.youtube.com/watch?v=fVBE9gDs_aQ --> wifi Install
+nmtui --> network manager terminal or cli
+du -sch /fileName --> Size of file
+tar - &vzf backupname.tar.gz /backupfilename --> Tar compressor
+fdisk -l --> All mounted Harddisk
+chown username filename --> Changer ownership of file
+setfacl -m u: sam: rw- /filename --> Special permission for file or folder
+chattr +/-i filename --> Prevention from delete or modify
