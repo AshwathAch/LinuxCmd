@@ -10,7 +10,7 @@ go to your browser / pc change sock proxy to 127.0.0.1:9050
 
 NTP
 NTP portnumber 123 
-vi /etc/chrony.conf 
+vi /etc/chrony/chrony.conf 
 after pool in config file 1add below lines 
 pool timeserver1.india.com iburst
 pool timeserver2.india.com iburst
