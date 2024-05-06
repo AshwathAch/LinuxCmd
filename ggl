@@ -23,6 +23,9 @@ sha256sum --check cc --> check for file with same hash in same dirdectory
 -o xxx.txt --> save Output in xxx.txt
 chmod ugo[+/-]rwx [fileName] --> Change permission(g - group, o - others, u - user, a - all)
 grep xxxx filename --> filter xxxx from file 
+grep --include=*.{txt,conf,xml,php} -rnw '.' -e 'yyy' 2>/dev/null --> include=*{xx} - search xx type files, 
+  r : all subdirectories, n - Display the line numbers where matches are found.
+  w : Match whole words only , e 'yyy' specifies the pattern to search for, 2>/dev/null - suppresses any error messages
 sudo dpkg --add-architecture [amd64/arm] --> Add architecture for installing app
 dpkg --print-foreign-architecture >See architecture
 jq path | less --> to display the entries in an improved format
