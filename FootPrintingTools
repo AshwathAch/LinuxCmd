@@ -9,9 +9,25 @@ nmap -oN/oX output.txt/.xml scanme.nmap.org > export output as txt or xml
 nmap -sn 192.xx.xx.cc/24 --> scan LAN devices, /16(192.xx.cc.cc)
 nmap -A 192.xx.xx.xx  --> Aggressive scan 
 nmap -p 80,443 192.xx.xx.xx --> specific port 
+nmap -O www.xxx.xxx --> Find OS
+
 <GOBUSTER(https://hackertargert.com/gobuster-tutorial)>
 gobuster version > Version
 gobuster dir -u https://xxxx.xxx -w [WordListPATH]/xxx.txt -t x(int) --delay x(int)s -x (.php,.txt)> Find linked pages and portals 
 -u(WebsiteAddress), -w(Wordlist), -t(No. of words), -x(Particular Extension)
 gobuster dir -d https://xxxx.xxx -w [WordListPATH]/xxx.txt
-<AutoTor https://github.com/FDX100/Auto_Tor_IP_changer>  
+
+<Sublist3r (https://github.com/aboul3la/Sublist3r.git)> -- pip install -r requirements.txt
+sublist3r -v -d xxxx.com -t 5 -e bing -o ~/Desktop/subresult.txt -b wordlist--> -d domain, -t number of search, -e search engine, -o output file
+-b bruteforce, -p port
+
+<theHarvester apt install theHarvester>
+theharvester -d xxxx.com -l 200 -b yy --> -d domain, -b serach engine, -l limit
+
+<sherlock> --> Search username in multiple domain
+<AutoTor> --> <https://github.com/FDX100/Auto_Tor_IP_changer>  
+<dirbuster>
+<Website Details> --> <https://centralops.net/co/>
+<NAPALM FTP Indexer> --> <critical files and documents related to the target domain>
+<reckon-ng ?>
+<photon ?>
