@@ -27,6 +27,7 @@ grep --include=*.{txt,conf,xml,php} -rnw '.' -e 'yyy' 2>/dev/null --> include=*{
   r : all subdirectories, n - Display the line numbers where matches are found.
   w : Match whole words only , e 'yyy' specifies the pattern to search for, 2>/dev/null - suppresses any error messages
 sudo dpkg --add-architecture [amd64/arm] --> Add architecture for installing app
+sudo dpkg --force-all -i /path/to/package.deb
 dpkg --print-foreign-architecture >See architecture
 jq path | less --> to display the entries in an improved format
 jq -c "[.field1,.field2]" /x.json --> Req part of Json
