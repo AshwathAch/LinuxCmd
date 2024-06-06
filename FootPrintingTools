@@ -10,6 +10,7 @@ nmap -sn 192.xx.xx.cc/24 --> scan LAN devices, /16(192.xx.cc.cc)
 nmap -A 192.xx.xx.xx  --> Aggressive scan 
 nmap -p 80,443 192.xx.xx.xx --> specific port 
 nmap -O www.xxx.xxx --> Find OS
+nmap -sV -v --script nbstat.nse <IP Address /-d www.xxxx.com> --> NetBIIOS Scan
 
 <GOBUSTER(https://hackertargert.com/gobuster-tutorial)>
 gobuster version > Version
