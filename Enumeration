@@ -1,0 +1,3 @@
+FTP
+rpcinfo -p <Target IP Address> --> open NFS port
+showmount -e <Target IP Address> -->  view the list of shared files and directories
