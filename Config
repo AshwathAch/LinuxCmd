@@ -26,3 +26,26 @@ enforcing >> Fully blocked
 permissive > blocked but it will throw logs 
 disabled >> Fully disabled allow all.
 getenforce >>> To check whether Selinux in which state.
+
+NFS
+Server
+sudo yum install nfs-utils
+sudo mkdir -p /<Folder>
+sudo chmod 755 /<Folder>
+/etc/exports ---> /<Folder> 192.168.1.0/24(rw,sync,no_subtree_check)
+sudo exportfs -a --> Export
+sudo systemctl start nfs-server
+sudo systemctl enable nfs-server
+sudo firewall-cmd --permanent --add-service=nfs
+sudo firewall-cmd --permanent --add-service=mountd
+sudo firewall-cmd --permanent --add-service=rpc-bind
+sudo firewall-cmd --reload
+
+Client
+sudo apt-get install nfs-common
+sudo mkdir -p /<Folder Name>
+sudo mount <client IP>:/<Folder> /<Folder Name>
+automatically mount the NFS share at boot /etc/fstab: --->192.168.1.100:/srv/nfs/share /mnt/nfs/share nfs defaults 0 0 
+
+
+
