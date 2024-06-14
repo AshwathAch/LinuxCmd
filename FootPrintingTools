@@ -12,6 +12,7 @@ nmap -p 80,443 192.xx.xx.xx --> specific port
 nmap -O www.xxx.xxx --> Find OS
 nmap -sV -v --script nbstat.nse <IP Address /-d www.xxxx.com> --> NetBIIOS Scan
 nmap -sn -PE 192.xx.xx.xx-yy --> fin avai between xx to yy
+nmap -D RND:x [Target IP Address] --> decoy x ip apddress
 
 <GOBUSTER(https://hackertargert.com/gobuster-tutorial)>
 gobuster version > Version
