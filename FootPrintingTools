@@ -11,6 +11,7 @@ nmap -A 192.xx.xx.xx  --> Aggressive scan
 nmap -p 80,443 192.xx.xx.xx --> specific port 
 nmap -O www.xxx.xxx --> Find OS
 nmap -sV -v --script nbstat.nse <IP Address /-d www.xxxx.com> --> NetBIIOS Scan
+nmap -sn -PE 192.xx.xx.xx-yy --> fin avai between xx to yy
 
 <GOBUSTER(https://hackertargert.com/gobuster-tutorial)>
 gobuster version > Version
