@@ -16,6 +16,7 @@ cat /etc/os-release --> OS info
 arp -a --> Network devices
 iwconfig --> Wireless adapters 
 iwlist scan / nmcli vice wifi list --> Available wifi scan
+netstat [-a] [-e] [-n] [-o] [-p Protocol] [-r] [-s] [Interval] --> open ports and connection
 sudo firewall-cmd --list-all --> FireWall rule
 /etc/proxychains4.conf --> Proxy configuration file
 proxychain firefox www.xxx.xx --> open www.xx with proxy server
