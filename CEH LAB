@@ -1,0 +1,44 @@
+Mod - 2(Footprinting and Recoinnaissance)
+ Lab -2 
+  theHarvester --> Search email id on multiple domains
+ Lab - 4
+  Photon parrot --> Find pages linked
+  Grecon --> Find subdomains of URL
+  cewl --> Words available on Website
+  dnsrecon  --> Website b/w IP(Network) Range
+  traceroute --> hops b/w client and server
+ Lab - 9
+  recon ng --> network and target info from social networking
+  maltego --> Reconnoissance 
+  OSRF 
+    domainfy --> Domain extension for same domain
+    searchfy --> User details in github, Instagram
+    usufy   - Gathers registered accounts with given usernames.
+    mailfy  – Gathers information about email accounts
+    phonefy – Checks for the existence of a given series of phones 
+    entify  – Extracts entities using regular expressions from provided URLs
+  Billcipher --> Combination of All lookup and F&P tools
+Mod - 3(Scan Networks)
+ Lab - 1
+  nmap --> Scan networks 
+ Lab - 2 
+  sx arp --> Scan network devices
+ Lab - 3
+  unicornscan --> Find OS with TimeToLive(TTL)
+ Lab - 4
+  nmap RND:x --> x number of unreserved IP scan on target
+  msf --> Metasploit (Here to scan network)
+Mod - 4(Enumeration)
+ Lab -8 
+  enum4linux --> enum windows and SAMBA
+Mod - 5(Vuln Analysis)
+ Lab - 2
+  Linux(openvas(greenbone), Nikto), Windows(Nessus, GFI)
+Mod - 6(System Hacking)
+ lab - 1 
+  Responder --> gain user ID and Password. (Linux)
+  l0ptrack --> Get password(from Target machine)
+  
+
+  
+  

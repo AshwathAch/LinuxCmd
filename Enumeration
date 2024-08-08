@@ -1,7 +1,0 @@
-FTP
-rpcinfo -p <Target IP Address> --> open NFS port
-showmount -e <Target IP Address> -->  view the list of shared files and directories
-
-SNMP
-nmap -sU -p 161 --script=snmp-win32-software <IP>
-snmp-check <IP>
