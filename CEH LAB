@@ -38,6 +38,8 @@ Mod - 6(System Hacking)
  lab - 1 
   Responder --> gain user ID and Password. (Linux)
   l0ptrack --> Get password(from Target machine)
+  MSFvenom or (Armitage tool) --> Take vnc session of Target by sending payload(exe file)
+  
   
 
   
