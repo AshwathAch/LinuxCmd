@@ -39,6 +39,8 @@ Mod - 6(System Hacking)
   Responder --> gain user ID and Password. (Linux)
   l0ptrack --> Get password(from Target machine)
   MSFvenom or (Armitage tool) --> Take vnc session of Target by sending payload(exe file)
+  NinjaJonin --> Send a exe file ninja to target and get access via Jonin. (Ninja conf file modified to Attacker IP, Mutilpe targets)
+  
   
   
 
