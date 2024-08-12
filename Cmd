@@ -23,6 +23,7 @@ proxychain firefox www.xxx.xx --> open www.xx with proxy server
 sha256sum xxx " > cc "--> Hash for xxx and store in cc
 sha256sum --check cc --> check for file with same hash in same dirdectory
 -o xxx.txt --> save Output in xxx.txt
+iperf3 -c [server_ip] --> Test network speed
 chmod ugo[+/-]rwx [fileName] --> Change permission(g - group, o - others, u - user, a - all)
 grep xxxx filename --> filter xxxx from file 
 grep --include=*.{txt,conf,xml,php} -rnw '.' -e 'yyy' 2>/dev/null --> include=*{xx} - search xx type files, 
