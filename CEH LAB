@@ -42,8 +42,16 @@ Mod - 6(System Hacking)
   NinjaJonin --> Send a exe file ninja to target and get access via Jonin. (Ninja conf file modified to Attacker IP, Mutilpe targets)
  Lab -2 
   BeRoot, Seatbelt exe --> Privilage escalation(use msfvenom to get shell access first)
-  
-  
+  Meterpreter cmd - 
+    search -f xx --> search file in target machine
+    keyscan start, keyscan dump --> Start keystroke capture and Dump used to view the captured keystroke
+    dir/a:h --> View all directories with hidden attribures
+    sc queryex type=service state=all --> to list all the available services
+    netsh firewall show config --> view the current firewall settings in the target system.
+    netsh advfirewall set allprofiles state off --> Tirn off firewall at all profiles
+    wmic /node:"" product get name,version,vendor --> get installed products and version
+    wmic cpu get --> get processor details
+    
   
 
   
