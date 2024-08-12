@@ -51,9 +51,13 @@ Mod - 6(System Hacking)
     netsh advfirewall set allprofiles state off --> Tirn off firewall at all profiles
     wmic /node:"" product get name,version,vendor --> get installed products and version
     wmic cpu get --> get processor details
-    use bupassuac/fodhelper --> to bypass uac protection
+    use bupassuac/fodhelper --> to bypass uac protection and elevate privilage
     use  post/windows/manage/sticky_keys --> use sticky key(Shift x 5) to open cmd on lock screen 
-    
+    load kiwi and use lsa_dump_sam , lsa_dump_secrets--> get users and HASH, local acc like SQL
+  Lab - 3
+   Use PowerSpy, SpyAgent to monitor the system.
+   hide any exe inside txt then mlink txt with decoy exe --> NTFS stream make the hidden app inside txt to open with decoy exe
+
   
 
   
