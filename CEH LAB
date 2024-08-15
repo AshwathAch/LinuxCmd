@@ -57,7 +57,13 @@ Mod - 6(System Hacking)
   Lab - 3
    Use PowerSpy, SpyAgent to monitor the system.
    hide any exe inside txt then mlink txt with decoy exe --> NTFS stream make the hidden app inside txt to open with decoy exe
-
+   Use snow stegnography to hide/retrieve text inside a text file(on cmd) 
+   Use openstegnon(windows) to hide/retrieve text in/from image.
+   Get into AUTHORITY\System with bypassuac_fodhelper move the exe file created by msfvenom to ..\program\startup --> Run msf exe each 
+       time target system logs in.
+   upload and import ./WMI-Persistence.ps1 in target system using meterpreter then install wit -trigger startup to maintain meterpreter 
+       connection
+   
   
 
   
