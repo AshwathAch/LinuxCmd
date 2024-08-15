@@ -63,6 +63,9 @@ Mod - 6(System Hacking)
        time target system logs in.
    upload and import ./WMI-Persistence.ps1 in target system using meterpreter then install wit -trigger startup to maintain meterpreter 
        connection
+   Use covert_tcp on target and and attacker system connect them with src and dst port an IP then send msg from attckr to target from
+       txt file one by one byte to get evade from firewall where the covert_tcp makes it to single file in target system.
+   
    
   
 
