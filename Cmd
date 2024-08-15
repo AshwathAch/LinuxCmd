@@ -2,6 +2,7 @@ sudo passwd root --> create and set password to root
 pwd --> Current path
 apt list [package], package --version --> Version of package
 cat --> Read file/Print
+nano/touch .xx --> .to make created file hidden and +s +h +r in windows
 ls -l --> Show Permission
 ls -a --> Hidden Files
 lsusb --> USB Connections
