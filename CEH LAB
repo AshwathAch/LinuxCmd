@@ -67,8 +67,26 @@ Mod - 6(System Hacking)
        txt file one by one byte to get evade from firewall where the covert_tcp makes it to single file in target system.
    shred ~/.bash_history && cat /dev/null > .bash_history && history -c && exit --> Delete and Clear. -> Linux
    use Clear_Event_Viewer_Logs.bat and CCleaner to del logs --> Windows 
-   
-  
-
-  
+Mod - 7(Malware Threats)
+  Lab - 1 
+    njRat --> Create a exe file with njrat send to victim and run to get complete access and also remote desktop
+    SwazyCryptor --> Hide/Encrypt exe built by njrat or other exe to make decrease chance of virus/malware detection
+  Lab - 2 
+    Use JPS virus maker to create virus based on the need(Select options with radio button)
+  Lab - 3
+     Valkyrie, Cuckoo Sandbox, Jotti, IObit Cloud, Hybrid-Analysis --> Online and local malware scanning tools
+     Floss, BinText, Fileseek --> Malware scanning with string search
+     Detect it easy(DIE) --> Scan/Gather info on elf files(elf is for linux executable file)
+     IDA, OllyDbg, Ghidra --> Malware disassembly tool
+   Lab - 4 
+     CurrPorts, TCView, Port monitoring, PortExert --> Monitor ports on machine and kill/View details of the process
+     Process Explorer, Monit, Process monitor --> monitor the process and view detail such as supported dll's
+     RegScanner, Reg Organizer --> To create a snapshot of current registry to compare later
+  `  SrvMan --> Monitor sevices in windows machine
+     AutoRuns, Winpatrol --> Check all the autorun process in machine kill/Disable with WinPatrol(See the files linked to the process)
+     MirekuSoft insttall monitor --> Monitor/Manage installed softwares in the machine
+     PA file sight --> Remotely monitor operations(File operatins) of a machine to ensure integrity
+     DriverView and Driver Reviver --> Check and monitor installed drivers for malicious drivers
+     
+     
   
