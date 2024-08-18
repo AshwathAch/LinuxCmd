@@ -14,7 +14,7 @@ curl https://ipinfo.io/ip --> Show external IP
 chmod +x aaaa.sh, sudo ./aaaa.sh --> Install .sh file or App
 hostnamectl --> Systeminfo
 cat /etc/os-release --> OS info
-arp -a --> Network devices
+arp-scan --localnet --> Find all devices in network 
 iwconfig --> Wireless adapters 
 iwlist scan / nmcli vice wifi list --> Available wifi scan
 netstat [-a] [-e] [-n] [-o] [-p Protocol] [-r] [-s] [Interval] --> open ports and connection
