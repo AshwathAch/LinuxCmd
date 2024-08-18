@@ -87,6 +87,15 @@ Mod - 7(Malware Threats)
      MirekuSoft insttall monitor --> Monitor/Manage installed softwares in the machine
      PA file sight --> Remotely monitor operations(File operatins) of a machine to ensure integrity
      DriverView and Driver Reviver --> Check and monitor installed drivers for malicious drivers
+Mod - 8(Sniffing)
+   Lab - 1
+     macof -i eth0 -n 10 -d (Target IP) --> use this to send packets from random ip to target or without -d to all users in network 
+      Capture and view via wirreshark
+     Use yersinia to do dhcp attacks on all machine in network. Yersinia also used to do multiple attacks like (STP),(CDP),(DTP),(DHCP).
+      (HSRP), 802.1q, 802.1x, (ISL), (VTP).
+     arpspoof -i eth0 -t xxxx yyyy --> use this command to say xxxx that I am yyyy. Do this to both access point and the victim
+      so that every packet sent from target goes to access point via attacker.
      
+       
      
   
