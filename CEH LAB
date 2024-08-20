@@ -95,7 +95,11 @@ Mod - 8(Sniffing)
       (HSRP), 802.1q, 802.1x, (ISL), (VTP).
      arpspoof -i eth0 -t xxxx yyyy --> use this command to say xxxx that I am yyyy. Do this to both access point and the victim
       so that every packet sent from target goes to access point via attacker.
-     
+Mod - 9(Social Engineering)
+    Lab - 1
+       Clone a website and hide the url 192.x.x.x into text to look like genuine to harvest the credentials of user(Using SE toolkit)
+    Lab - 2 
+       Verify url for phising website with netcraft extension or phistank website
        
      
   
