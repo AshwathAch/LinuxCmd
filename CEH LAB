@@ -100,6 +100,14 @@ Mod - 9(Social Engineering)
        Clone a website and hide the url 192.x.x.x into text to look like genuine to harvest the credentials of user(Using SE toolkit)
     Lab - 2 
        Verify url for phising website with netcraft extension or phistank website
-       
-     
+    Lab - 3
+       Create a phisiing campaign with ohphish and add the target employee with in the organization to check who falls for the phising
+Mod - 10(DenialOfService)
+   Lab - 1
+    in msf use dos/tcp/synflood to flood ftp server of target machine(192.168.1.x) by using another machine(192.168.1.y)
+    Use hping3 to do the same as above ando also use -d (Packet size) to send a huge packet to free/Slow the target machine. use -p 132 --flood to flood UDP packets
+    Send huge udp/tcp, ICMP, http, and other req to target with raven-storm stress testing tool.
+    Use HOIC, LOIC(Windows) to flood request to the target machine.
+   Lab - 2
+    Use anti-ddos-Gaurdian(Windows) to protect from ddos attack.
   
