@@ -133,4 +133,4 @@ Mod - 13(Hacking web server)
     IDserve --> To get the exact version of website hosted.
     netcat, telnet --> banner grabbing, gather information (content type, last modified date, accept ranges, ETag, server information)
     Use nmap to enumerate directories used, discover the hostnames, HTTP trace, Find for IDS/IPS/WAF
-    uniscan --> to scan the directories in the web server.
+    uniscan --> to scan the directories in the web server, make a dynamic scan(-d), scan for robots.txt/sitemap.xml(-w, -e). 
