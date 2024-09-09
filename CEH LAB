@@ -134,3 +134,8 @@ Mod - 13(Hacking web server)
     netcat, telnet --> banner grabbing, gather information (content type, last modified date, accept ranges, ETag, server information)
     Use nmap to enumerate directories used, discover the hostnames, HTTP trace, Find for IDS/IPS/WAF
     uniscan --> to scan the directories in the web server, make a dynamic scan(-d), scan for robots.txt/sitemap.xml(-w, -e). 
+Mod - 14(Hacking web application)
+ Lab - 1
+    whatweb -v (website) --> View website infrastructure (Plugins, Ip address, HTTP Header)
+    dig targetwebsite --> Display the available load balancers 
+    lbd targetwebsite --> Disolay available DNS load balancers 
