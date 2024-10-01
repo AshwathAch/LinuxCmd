@@ -139,3 +139,7 @@ Mod - 14(Hacking web application)
     whatweb -v (website) --> View website infrastructure (Plugins, Ip address, HTTP Header)
     dig targetwebsite --> Display the available load balancers 
     lbd targetwebsite --> Disolay available DNS load balancers 
+    gobuster dir -u www.xx.com -w /wordlist --> Enumurate directory on website with the wordlist available
+     gobuster or dirsearch.py
+    VEGA(Windows)/AppSpider/Uniscan --> Website Vulnurability Scanner
+    
