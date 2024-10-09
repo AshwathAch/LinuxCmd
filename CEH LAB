@@ -142,4 +142,7 @@ Mod - 14(Hacking web application)
     gobuster dir -u www.xx.com -w /wordlist --> Enumurate directory on website with the wordlist available
      gobuster or dirsearch.py
     VEGA(Windows)/AppSpider/Uniscan --> Website Vulnurability Scanner
+Mod - 15(SQL injection)
+ Lab - 1
+    sqlmap --> Get documents.cookie by inspecting webpage then get Database then tables then table values. 
     
