@@ -145,4 +145,5 @@ Mod - 14(Hacking web application)
 Mod - 15(SQL injection)
  Lab - 1
     sqlmap --> Get documents.cookie by inspecting webpage then get Database then tables then table values. 
-    
+ Lab - 2
+    DSSS --> Use url with id and cookie to scan for possible sql vulnerbaility.
