@@ -1,0 +1,42 @@
+Task 1
+Setting permissions
+  1. SUID --> SUID allows the file to be run with the privileges of the file owner (often the root) rather than the user who runs it.
+              chmod u+s/4755 Filename
+  2. SGID --> SGID allows the file to run with the permissions of the group owner. When applied to directories, SGID ensures new files inherit the group ownership of the directory rather than the user’s primary group.
+              chmod g+s/2755 Filename
+  3. Sticky bit --> this bit prevents users from deleting files owned by others within the directory. Only the file owner, directory owner, or root can delete them. It’s indicated by a "t" in the "others" executable position, e.g., drwxrwxrwt.
+              chmod +t directory_name
+  4. ACL --> ACLs provide more granular control than standard permissions, allowing you to define specific permissions for individual users or groups beyond the file’s owner, group, and others. ACLs are especially useful in environments where complex permissions are needed. You can use commands like setfacl to define ACLs and getfacl to view them.
+              setfacl -m u:username:permissions filename_or_directory
+              setfacl -m g:groupname:permissions filename_or_directory
+
+Task 2
+Process Managment
+  1.top –-> Real-time Process Monitoring
+      Key shortcuts:
+      q: Quit top.
+      k: Kill a process by entering its PID.
+  2. ps –-> Process Snapshot
+      ps aux: Displays all processes with detailed information.
+      ps -ef: Shows all processes in a full-format listing.
+  3. vmstat –-> vmstat provides an overview of system performance, including memory, swap, CPU, and I/O statistics.
+      Fields to note:
+      r: Processes waiting for run time.
+      free: Free memory.
+      si and so: Swap in and swap out rates.
+      us, sy, id: User, system, and idle CPU percentages.
+
+Task 3
+Disk Partition
+  Primary Partitions: These are the main partitions, and you can create up to four on a disk (MBR-based).
+  Extended Partitions: A workaround for the primary partition limit. You can create one extended partition that can hold multiple logical partitions.
+  Logical Partitions: Created within an extended partition, these are treated as independent drives by the system.
+  Swap Partition: Dedicated space used as virtual memory, where data from RAM can temporarily swap to disk. This is essential for systems with low RAM, especially in Linux.
+  View all partitions--> sudo fdisk -l, lsblk, sudo parted -l, df -h
+
+Task 4
+NFS and SAMBA
+  NFS --> share directories on the same network.
+  Configure /etc/exports --> /path/to/shared_folder 192.168.1.0/24(rw,sync,no_subtree_check)
+  Restart NFS.
+  
