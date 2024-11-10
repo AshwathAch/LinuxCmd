@@ -36,7 +36,54 @@ Disk Partition
 
 Task 4
 NFS and SAMBA
-  NFS --> share directories on the same network.
+  NFS --> share directories on the same network.(Linux to Linux)
   Configure /etc/exports --> /path/to/shared_folder 192.168.1.0/24(rw,sync,no_subtree_check)
   Restart NFS.
-  
+  SAMBA --> Used to share files between Linux and Windows systems.(Cross platform)
+  Configure /etc/samba/smb.conf  --> Share name / Path = , Browsable = , writable = , guest ok = , read only = .
+  Restart samba
+  Mount on Linux --> sudo mount -t cifs //server_IP/ShareName /path/to/mount_point -o username=your_username
+
+Task 5 
+SELinux --> provides a set of security policies that control how processes and users interact with files, devices, and other resources.
+  Each file, process, and resource in SELinux has a security context, which looks like this:
+  user:role:type:level
+  Modes of linux  : Enforcing(unauthorised access are blocked)
+                    Permissive(SElinux logs the blocked action)
+                    Disabled(No policies enforced)
+
+Task 6
+SSH(Secure Shell) --> protocol for secure remote access to servers and other networked devices.
+SSH encrypts data sent between, uses public key cryptography, uses port 22.
+  Install SSH, start and connect by entering username and IP address.
+  scp copy files from server, sftp secure file transfer.
+  SSH Configuration --> /etc/ssh/sshd_config(Disable RootLogin for more security, Change default port)
+
+Task 7 
+Networking and firewall basics
+
+Task 8 
+Cron scheduling --> Job scheduler to automate tasks.
+  Cron jobs -> Tasks scheduled, Crontab -> Configuration file where tasks are defined.
+  Crontab --> * * * * * command(Min,Hour,Date,Month,Day of week)
+  crontab -e(Open file), -l(List), -r(Remove jobs)
+
+Task 9
+Configuration files
+  SSH --> /etc/ssh/sshd_config
+  Apache --> /etc/httpd/conf/httpd.conf
+  MySQl/MariaDB --> /etc/my.cnf or /etc/mysql/my.cnf
+  Crontabs--> /etc/crontab
+  NFS --> /etc/exports
+  SMB --> /etc/samba/smb.conf 
+  chrony --> /etc/chrony.conf
+  network configuration(Debian/Ubuntu) --> /etc/network/interfaces
+  network configuration(RHEL/CentOS) --> /etc/sysconfig/network-scripts/ifcfg-*
+  Postfix(Mail Transfer) --> /etc/postfix/main.cf
+  Firewall --? /etc/firewalld/zones/*.xml
+  GRUB --> /etc/default/grub
+
+Task 10
+Shell Scripting --> Automate task 
+  Save shell files with .sh extension, make executable(chmod +x), Run script
+  Use variables, get input(read), echo(output).
