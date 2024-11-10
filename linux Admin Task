@@ -82,8 +82,126 @@ Configuration files
   Postfix(Mail Transfer) --> /etc/postfix/main.cf
   Firewall --? /etc/firewalld/zones/*.xml
   GRUB --> /etc/default/grub
-
+  
 Task 10
 Shell Scripting --> Automate task 
   Save shell files with .sh extension, make executable(chmod +x), Run script
   Use variables, get input(read), echo(output).
+
+Task 11
+Linux user administration(setup and maintaining account)
+  useradd -m username --> Create user with and create directory.
+  sudo passwd username --> Set password for user.
+  Delete user --> sudo userdel -r username
+  usermod -L/-U username --> Lock and unlock users.
+  sudo usermod -d /new/home/directory username --> Change the home directory 
+  groupadd groupname --> Create group
+  usermod -aG groupname username --> Add user to group
+  groups usernmame --> List groups of user
+  gpasswd -d username groupname --> Remove user from group.
+  change -M 30 username --. Password expity for 30 days 
+  change -d 0 username --> Force user to change password
+  visudo --> Create and manage sudo privilages.
+
+Task 12
+Maintaining System
+  Update and upgrade system.
+  Backup and Restore.
+  Manage Disk usage --> Clear unused files.
+  Monitoring System resource.
+  Reviewing logs.
+  Schedule tasks.
+  Security maintainance.
+  Network configuration and troubleshooting.
+
+Task 13
+Peripherals Monitoring
+  lsusb --> List usb devices  
+  lsblk --> View mounted drives and USB storage.
+  lpstat -p/-d --> Show printer status/Default printer.
+  ip a --> List all network interfaces
+  iwconfig --> Check wi-fi interfaces
+  bluetoothctl devices --> List bluetooth
+  dmesg --> Check kernal messages for error related devices.
+  lshw --> List all Hardware.
+  cheesse --> To check for webcam
+
+Task 14, 15.
+Clear hardware failiure, Monitor System performance.
+
+Task 16
+Create File System
+  fdisk /dev/sdb --> to create new partition and write changes to disk
+  mkfs.x --> Create file system for the partition.
+  lsblk --> Verify file system
+  sudo mount /dev/sdb1 /mnt/mydisk --> Mount partition.
+
+Task 17
+Installing software using tools
+  APT --> Debian/Ubuntu --> (install / remove)
+  DNF / YUM --> Fedora / CentOS / RHEL 
+  ZYPPER --> openSUSE / SUSE 
+  APK --> Alpine linux --> (add / del)
+  PACMAN --> Aech Linux / Manjaro (-S / -R)
+
+Task 18
+Patching firmware and software
+  apt/yum update/upgrade 
+  apt/dnf install fwupd --> Firmware update
+  use crontab for regular software patching.
+
+Task 19
+Backup and Recovery
+  Backup tools
+    Linux --> rsync, tar, dd, Bacula, Amanda
+    Windows --> Windows Backup, Veenam, Acronis
+    Cloud --> AWS S3, Azure Blob Storage.
+  Steps:
+    Compressed Backup --> rsync -aAXv / --exclude={/proc,/sys,/dev,/tmp,/run,/mnt,/media} /path/to/backup/
+      --link-dest=/path/to/last_backup --> incremental backup(Exclude unchanged files)
+    Disc Image Backup -->  exact block-level copy of a hard drive or partition. This method is useful for full system backups.
+    Encrypt
+    Acess control --> Limit access to backup data
+    Backup integrity --> Hash and Checksum
+    Recover --> Restore backup using rsync
+    Delete old backups.
+
+Task 20
+Monitor network communication
+  netstat -tuln --> show tcp/udp connections. listening ports.
+  netstat -an --> Show all connections and listening ports, show address in numerical form.
+  iftop --> Realtime view of data being transferred.
+  Wireshark --> Network interface monitor.
+
+Task 21
+Udate OS and Application software
+
+Task 22
+Implementing Policies.
+  1. Acceptable USE Policy
+  2. Security policy
+  3. Data protection policy
+  4. Network security policy
+  5. Incident response policy
+  6. Remote access policy
+
+Task 23, 24
+Setup securoty policy, Documentation.
+
+Task 25
+Password and Identity Management --> Define policies
+Password Management 
+  1. Password Strength
+  2. Password expiry
+  3. Multi-Factor Authentication
+  4. Password storage --> Hash, Salt
+  5. Password recovery
+Identity Management
+  1. Role-Based Access control --> Ensure users only have access to resources neccesory
+      for the role.
+  2. Single Sign-On --> Allow users to authenticate once and access multiple applications
+
+
+
+
+
