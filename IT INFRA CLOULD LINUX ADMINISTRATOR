@@ -1,0 +1,23 @@
+Section 1 : Introduction To Linux and OS Installations
+  OS installation 
+Section 2 : Essential Basic Linux Commands
+  List Files and Directories in Linux -> ls / dire
+  tree foldername
+    -a Hidden files; -l file persmission, Date; -R Subdirectories; ls *.xx xx file extension; -n UID and GID files
+  cd --> Change directory, pwd --> Print working directory. 
+  mkdir / rmdir --> Create/remove directory, rmdir dir? --> del recursive in ?
+  mv --> move and rename a file, mv -n/i --> without overwrite/overwrite, --backup backup overwritten file
+  cp --> Copy file, -f force copy, --remove-destination, -s soft link without copying, -p preserve attribute, -r recursive
+  touch --> -a change the access time only, -c if the file does not exist, do not create it, -d update the access and modification times
+    -m change the modification time only, -r use the access and modification times of the file, -t creates a file using a specified time
+  find -name/-type/-perm --> Find file in folder or system, format, without given permission, 
+    -mmin/-amin --> File modified/accessed time. -size
+  cat --> Display contents in file, cat > filename save next line in file. -n line number, >> append 2nd file to 1st
+  cat /proc/cpuinfo --> CPU info
+  df -> Device information, -a information on mounted filesystem. -T filesystem type. 
+  du -h --> Size of folder/file, -s total size of directory, -a disk usage.
+  tar -cvf /x/ --> Create tar file. -x extract, -t display content, -r update/apprnd existing tar files.
+  alias x="aa" --> set alias for xx to a. tail --> End of file. Top --> Start of file. 
+  ps -A --> Display active process. ps -rf | name --> Process executed by a program  
+  pkill pid --> Kill process.
+  
