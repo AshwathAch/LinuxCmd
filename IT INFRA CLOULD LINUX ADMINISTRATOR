@@ -20,4 +20,5 @@ Section 2 : Essential Basic Linux Commands
   alias x="aa" --> set alias for xx to a. tail --> End of file. Top --> Start of file. 
   ps -A --> Display active process. ps -rf | name --> Process executed by a program  
   pkill pid --> Kill process.
+Section 3: Essentials of Advance Linux Commands
   
