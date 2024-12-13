@@ -23,6 +23,59 @@ cryptographic key material and use the key material without exposing it outside 
 AWS Cognito --> it supports login with social identity providers and passwordless login using WebAuthn 
 passkeys or SMS and email one-time-passwords.
 
+Amazon Detective --> enables you to analyze and visualize security data from your AWS CloudTrail logs, 
+Amazon VPC Flow Logs, Amazon EKS audit logs, findings sent from integrated AWS services to AWS Security Hub, 
+and Amazon GuardDuty findings.
+
 AWS Directory Service --> provides multiple ways to use Microsoft Active Directory (AD) with other AWS services. 
 Directories store information about users, groups, and devices, 
 and administrators use them to manage access to information and resources.
+
+AWS Firewall Manager will automatically apply the rules and protections to all resources across accounts.
+
+Amazon GuardDuty --> threat detection service that continuously monitors your AWS accounts and workloads for malicious activity and 
+delivers detailed security findings for visibility and remediation
+
+AWS Ground Station --> fully managed service that enables customers to easily command, control, and downlink data from satellites. 
+
+AWS RoboMaker --> cloud-based simulation service that enables robotics developers to run, scale, 
+and automate simulation without managing any infrastructure.
+
+Amazon Braket --> provides everything you need to build, test, and run quantum algorithms.
+
+Amazon API Gateway --> helps developers to create and manage APIs to back-end systems running on Amazon EC2, AWS Lambda, 
+or any publicly addressable web service.
+
+App Mesh standardizes how your microservices communicate, giving you end-to-end visibility and helping to ensure high-availability 
+for your applications.
+
+Amazon Application Recovery Controller --> gives insights into whether your applications and resources are ready for recovery.
+
+Cloud Map --> you can define custom names for your application resources, 
+and it maintains the updated location of these dynamically changing resources.
+
+Amazon CloudFront --> a web service that speeds up distribution of your static and dynamic web content, 
+such as .html, .css, .js, and image files, to your users.
+
+AWS Direct Connect --> networking service that provides an alternative to using the internet to connect to AWS. 
+Using AWS Direct Connect, data that would have previously been transported over the internet is delivered through a private network 
+connection between your facilities and AWS.
+
+AWS Application Migration Service --> simplifies and expedites your migration to AWS by automatically converting your source servers 
+from physical, virtual, or cloud infrastructure to run natively on AWS.
+
+AWS Mainframe Modernization --> provides tools and resources for planning and executing application migration and 
+modernization from mainframes to AWS managed runtime environments.
+
+Amazon Interactive Video Service --> is a managed live streaming solution that is quick and easy to set up, 
+and ideal for creating interactive video experiences.
+
+
+
+
+
+
+
+
+
+
