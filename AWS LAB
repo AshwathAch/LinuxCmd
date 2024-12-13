@@ -1,0 +1,28 @@
+A Backup vault --> is an entity that stores the backups and recovery points created over time
+
+Amazon Elastic File System (EFS) --> is designed to provide serverless, fully elastic file storage that lets you share file data without
+provisioning or managing storage capacity and performance.
+
+AWS Elastic Disaster Recovery (AWS DRS) / AWS FSx --> minimizes downtime and data loss with fast, 
+reliable recovery of on-premises and cloud-based applications using affordable storage, minimal compute, and point-in-time recovery.
+
+Amazon(S3) --> is a cloud object storage service from AWS that offers a variety of features for storing, managing, and analyzing data.
+
+AWS Storage Gateway --> gives your applications on-premises and in-cloud access to virtually unlimited cloud storage. 
+
+AWS Artifact --> enables you to download AWS security and compliance documents such as ISO certifications and SOC reports.
+
+AWS Artifact --> provides on-demand access to compliance reports, and AWS Audit Manager automates evidence collection
+
+AWS Certificate Manager --> service that lets you easily provision, manage, and deploy public and private SSL/TLS certificates 
+for use with AWS services and your internal connected resources.
+
+AWS HSM --> provides secure key storage and cryptographic operations within a tamper-resistant hardware device. securely stores
+cryptographic key material and use the key material without exposing it outside the cryptographic boundary of the hardware.
+
+AWS Cognito --> it supports login with social identity providers and passwordless login using WebAuthn 
+passkeys or SMS and email one-time-passwords.
+
+AWS Directory Service --> provides multiple ways to use Microsoft Active Directory (AD) with other AWS services. 
+Directories store information about users, groups, and devices, 
+and administrators use them to manage access to information and resources.
