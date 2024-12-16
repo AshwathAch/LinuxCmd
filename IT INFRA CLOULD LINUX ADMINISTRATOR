@@ -13,7 +13,7 @@ Section 2 : Essential Basic Linux Commands
   find -name/-type/-perm --> Find file in folder or system, format, without given permission, 
     -mmin/-amin --> File modified/accessed time. -size
   cat --> Display contents in file, cat > filename save next line in file. -n line number, >> append 2nd file to 1st
-  cat /proc/cpuinfo --> CPU info
+  cat /proc/cpuinfo --> CPU info, tac --> Reverse order
   df -> Device information, -a information on mounted filesystem. -T filesystem type. 
   du -h --> Size of folder/file, -s total size of directory, -a disk usage.
   tar -cvf /x/ --> Create tar file. -x extract, -t display content, -r update/apprnd existing tar files.
@@ -21,4 +21,10 @@ Section 2 : Essential Basic Linux Commands
   ps -A --> Display active process. ps -rf | name --> Process executed by a program  
   pkill pid --> Kill process.
 Section 3: Essentials of Advance Linux Commands
+  ls -l --time-style=full-iso --> Files with creation time
+  ls --formar-across/comma/horizontal/vertical/verbose
+  ls --sort=size/sort/time
+  head/tail -nx --> Top and bottom file. x number of rows.
+  wc --> print number of lines, characters, words, bytes
+  “free” command gives information about total used and available space of physical memory and swap memory
   
